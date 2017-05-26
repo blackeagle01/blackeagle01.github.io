@@ -47,4 +47,6 @@ Out1: True
 In2: 9 in l
 Out2: False
 ```
-I felt like I was cutting trees with swiss knives until now, and had grown pretty comfortable with it,But by the time I discovered this mighty swords, I felt invincible.
+I felt like I was cutting trees with swiss knives until now, and had grown pretty comfortable with it,but by the time I discovered this mighty sword, I felt invincible.I could test code snippets on the go in the python interpreter without having to type and compile a new test program everytime I wanted to check something.I found python had a ever growing community of open source contributors,which created and maintained extremely useful modules(libraries) that i could spawn with a click of a button and utilize their functionality with incredible ease.I was playing legos with software development,and I need to worry about manufacturing plastic anymore.
+
+<div class="divider"></div>
