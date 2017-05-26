@@ -54,7 +54,7 @@ del l[x]
 
 ```
 Or train a Convolutional Neural Network  to generate a story from the context of a fed in image in just three lines of code.
-Wait what?
+Wait,what?
 ```
 import generate
 z=generate.load_all()
