@@ -32,4 +32,55 @@ evaluating a degree of error between by the given output and the desired output 
 
 # Getting my hands dirty
 
-I coded up a simple implementation of a genetic algorithm in python which accepted a target string("cat" in this case) and a list of current generation eg.,['car','hut','box']
+I coded up a simple implementation of a genetic algorithm in python which accepted a target string("cat" in this case) and a list of string in the current generation eg.,['car','hut','box'].The fitness function will evaluate as percentage of no of characters in the string that are same as cat. ie; car will evaluate to 66.6% hut to 33.3% and box to zero. Then two parents will be chosen and crossed to generate an offspring.
+
+```python
+def createnewgeneration(generation):
+	newgen=[]
+	while len(newgen)!=len(generation):
+		parents=select(generation)
+		child=reproduce(parents)
+		newgen.append(child)	 
+	return newgen
+  
+```
+The `createnewgeneration()` function accepts a generation and returns a new generation.
+
+# A look at the `select()` `reproduce()` and `mutate()` methods
+### select
+```python
+def select(generation):
+	fitness={}
+	for x in generation:
+		fitness[x]=calfit(x)
+	parents=selectparents(fitness)
+	return parents
+  ```
+### reproduce
+```python
+def reproduce(parents):
+	l1,l2=map(list,parents)
+	child=''
+	for i in range(len(l1)):
+		x=random.randint(0,2)
+		if x==0:
+			child+=l1[i]
+		else:
+			child+=l2[i]
+	child=mutate(child)
+	return child
+  ```
+  ### mutate 
+  ```python
+  def mutate(child):
+	child=list(child)
+	l=list(string.ascii_lowercase)
+	for i in range(len(child)):
+		x=random.randint(1,101)
+		if x==5:
+			c=random.choice(l)
+			child[i]=c
+	return ''.join(child)
+  ```
+  The probability of mutation is 1%.If I don't seed the random number generator,everytime I run the code,most of the time cat is created within 3000 generations!Check out the entire code [here](#).
+  
