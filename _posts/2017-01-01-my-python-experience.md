@@ -57,14 +57,15 @@ I felt like I was cutting trees with  knives until now, and had grown pretty com
 
 <div class="divider"></div>
 
-#Here are some Interesting programs I built in Python:
+# Here are some Interesting programs I built in Python:
 
-##ImpressWriter
+## ImpressWriter
 
 As a part of a hackathon project at NITH, I along with my teammates Navanshu,Kartikey and Radhika built a GUI based text editor that helped users to write neat and stronger sentences with a built in thesaurus,real time dictionary and spell check capabilities.Check out the code [here](#)
-##Sentiment Analyser
+
+## Sentiment Analyser
 
 Twitter is a gigantic hub of opinions and facts and Sentiment analyser uses the NLP capabilities of the textblob library to analyse sentiments of people over a given subject.It uses tweepy to log in into Twitter API and fetch data.Check out the code [here](#)
 
-##Clean-it-up
+## Clean-it-up
 Ever wanted to organize your files on your messy desktop into a neat sequence of appropriate folders?Clean-it-up will go through all your files and put them into their appropriate folders within microseconds,saving you time and effort.Now you can be messy and clean at the same time ;). Check out the link [here](#)
