@@ -30,7 +30,7 @@ I thought to myself, yeah! thats pretty neat!.
 
 I continued reading the text and discovered python had everything I wished for everytime I wrote code in C++(no offense though :P). It had incredible data structures like  dynamic lists with method implementations,i.e. arrays with insertion and deletion capabilties and  powerful built in methods ,dictionaries which helped me map anything to almost anything with minimal syntax. I could return arrays from functions,call innumerable built in functions and perform tedious computations with minimal effort.I had practiced object oriented programming in C++ earlier but never really realized its usability until I started working with python. Elementary operations like sorting which although coding efficiently do take some effort, were already implemented with the best algorithms in python and were as Charlie Puth says:  Just One call Away.eg
 
-```
+```python
 In1: l=[3,1,2,4,5]
 
 In2: l.sort()
@@ -41,7 +41,7 @@ Out3:[1,2,3,4,5]
 ```
 I could check whether an element existed in a list with just:
 
-```
+```python
 In1: 3 in l
 Out1: True
 In2: 9 in l
