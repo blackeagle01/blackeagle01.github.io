@@ -45,43 +45,6 @@ def createnewgeneration(generation):
   
 ```
 The `createnewgeneration()` function accepts a generation and returns a new generation.
-
-# A look at the `select()` `reproduce()` and `mutate()` methods
-### select
-```python
-def select(generation):
-	fitness={}
-	for x in generation:
-		fitness[x]=calfit(x)
-	parents=selectparents(fitness)
-	return parents
-  ```
-### reproduce
-```python
-def reproduce(parents):
-	l1,l2=map(list,parents)
-	child=''
-	for i in range(len(l1)):
-		x=random.randint(0,2)
-		if x==0:
-			child+=l1[i]
-		else:
-			child+=l2[i]
-	child=mutate(child)
-	return child
-  ```
-### mutate 
-  ```python
-  def mutate(child):
-	child=list(child)
-	l=list(string.ascii_lowercase)
-	for i in range(len(child)):
-		x=random.randint(1,101)
-		if x==5:
-			c=random.choice(l)
-			child[i]=c
-	return ''.join(child)
-  ```
   The probability of mutation is 1%.If I don't seed the random number generator,everytime I run the code,most of the time cat is created within 3000 generations!Although sometimes I got vague results like 'clq' which occur due to mutation.You might be thinking why do we incorporate mutation even when it is leading to vague results.It's because mutation can help to adjust datasets to optimum when the initial fitness values are low,i.e., cat can be created from [box,rat,dog].Genetic Algorithms can be used to train Neural Networks by itertating through a list of synapse values and performing selection,crossovers and mutation.
   
   
