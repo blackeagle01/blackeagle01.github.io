@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About time when I found Thor's Hammer!
+title: About the time when I found Thor's Hammer!
 ---
 
 I started off as a naive programmer,as I begun my first year at NIT Hamirpur,well yeah everyone does.I had no background of Computer Science from high
