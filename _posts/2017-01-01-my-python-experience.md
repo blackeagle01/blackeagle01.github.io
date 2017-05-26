@@ -48,14 +48,14 @@ In2: 9 in l
 Out2: False
 ```
 Implement a priority queue in 2 statements as:
-```
+```python
 x=l.index(min(l))
 del l[x]
 
 ```
 Or train a Convolutional Neural Network  to generate a story from the context of a fed in image in just three lines of code.
 Wait,what?
-```
+```python
 import generate
 z=generate.load_all()
 generate.story(z,/images/image.jpg)
