@@ -9,10 +9,10 @@ baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-XXXXX-XX
-repo: http://github.com/heiswayi/thinkspace
+#repo: http://github.com/heiswayi/thinkspace
 #disqus_shortname: "hnbloggithub"
 #twitter_username: "HeiswayiNrird"
-comments: true
+comments: false
 
 # Build settings
 permalink   : /:year/:title/
@@ -30,8 +30,8 @@ sass:
 # Author settings
 author:
   name     : "Harsh Tiku"
-  job      : "student at NIT Hamirpur"
-  bio      : " I'm just a Keen learner trying to make this world a better place.Check out my blog"
+  job      : "student at NIT-H"
+  bio      : " I'm just a keen learner trying to make this world a better place.Check out my blog"
   thumb    : /images/author.jpg
   email    : tiku.harsh@gmail.com
   url      : http://blackeagle.github.io
