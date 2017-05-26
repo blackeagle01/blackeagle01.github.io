@@ -15,12 +15,11 @@ Genetic Algorithms stand at the intersection of computing and the theory of evol
 On a given generation, compute the values of a fitness function and select the parents from the generation probabilistically depending on the values of their fitness function,i.e. the member with higher fitness has higher probability of getting selected.
 
 # 2.Crossover/Reproduction
-
-Defining some merging procedure to produce a crossover from the selected parents to produce a child.Repeat the selection and crossover procedure until a new generation is generated.
+Using a merge procedure,produce an offspring from the selected parents. Repeat the selection and crossing until a new generation is produced.
 
 # 3. Mutation
 
-Mutation,although rare exists in the nature so our algorithm cannot evade it either.With minute probability,we mutate the children of the generation.
+Mutation,although rare exists in the nature so our algorithm cannot evade it either.With minute probability,we mutate the children of produced generation.
 
 
 <div class="divider"></div>
@@ -43,7 +42,7 @@ def createnewgeneration(generation):
   
 ```
 The `createnewgeneration()` function accepts a generation and returns a new generation.
-  The probability of mutation is 1%.If I don't seed the random number generator,everytime I run the code,most of the time cat is created within 3000 generations!Although sometimes I got vague results like 'clq' which occur due to mutation.You might be thinking why do we incorporate mutation even when it is leading to vague results.It's because mutation can help to adjust datasets to optimum when the initial fitness values are low,i.e., cat can be created from [box,rat,dog].Genetic Algorithms can be used to train Neural Networks by itertating through a list of synapse values and performing selection,crossovers and mutation.
+  The probability of mutation is 1%.If I don't seed the random number generator,everytime I run the code,most of the time cat is created within 3000 generations!Although sometimes I got vague results like 'clq' which occur due to mutation.You might be thinking why do we incorporate mutation even when it is leading to vague results.It's because mutation can help to adjust datasets to optimum when the initial fitness values are low,i.e., cat can be created from [box,rat,dog].Genetic Algorithms can be used to train Neural Networks by iteratating through a list of synapse values and performing selection,crossovers and mutation.
   
   
 Check out the entire code [here](#).
