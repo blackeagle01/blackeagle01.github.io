@@ -28,7 +28,7 @@ I thought to myself, yeah! thats pretty neat!.
 
 <div class="divider"></div>
 
-I continued reading the text and discovered python had everything I wished for everytime I wrote code in C++(no offense though :P). It had incredible data structures like  dynamic lists with method implementations,i.e. arrays with insertion and deletion capabilties and  powerful built in methods ,dictionaries which helped me map anything to almost anything with minimal syntax. I could return arrays from functions, I had sets and tuples.I had practiced object oriented programming in C++ earlier but never really realized its usability until I started working with python. Elementary operations like sorting which although coding efficiently do take some effort, were already implemented with the best algorithms in python and were as Charlie Puth says:  Just One call Away.eg
+I continued reading the text and discovered python had everything I wished for everytime I wrote code in C++(no offense though :P). It had incredible data structures like  dynamic lists with method implementations,i.e. arrays with insertion and deletion capabilties and  powerful built in methods ,dictionaries which helped me map anything to almost anything with minimal syntax. I could return arrays from functions,call innumerable built in functions and perform tedious computations with minimal effort.I had practiced object oriented programming in C++ earlier but never really realized its usability until I started working with python. Elementary operations like sorting which although coding efficiently do take some effort, were already implemented with the best algorithms in python and were as Charlie Puth says:  Just One call Away.eg
 
 ```
 In1: l=[3,1,2,4,5]
@@ -53,6 +53,17 @@ x=l.index(min(l))
 del l[x]
 
 ```
+Or train a Convolutional Neural Network  to generate a story from the context of a fed in image in just three lines of code.
+Wait what?
+```
+import generate
+z=generate.load_all()
+generate.story(z,/images/image.jpg)
+
+```
+
+# Amazing!
+
 I felt like I was cutting trees with  knives until now, and had grown pretty comfortable with it,but by the time I discovered this mighty sword, I felt invincible.I could test code snippets on the go in the python interpreter without having to type and compile a new test program everytime.I found python had a ever growing community of open source contributors,which created and maintained extremely useful modules(libraries) that I could spawn with a click of a button and utilize their functionality with incredible ease.I was playing legos with software development,without needing to worry about manufacturing the plastic anymore.
 
 <div class="divider"></div>
