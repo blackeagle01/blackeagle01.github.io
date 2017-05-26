@@ -62,7 +62,9 @@ generate.story(z,/images/image.jpg)
 
 ```
 
-# Amazing!
+* Amazing!*
+
+<div class="divider"></div>
 
 I felt like I was cutting trees with  knives until now, and had grown pretty comfortable with it,but by the time I discovered this mighty sword, I felt invincible.I could test code snippets on the go in the python interpreter without having to type and compile a new test program everytime.I found python had a ever growing community of open source contributors,which created and maintained extremely useful modules(libraries) that I could spawn with a click of a button and utilize their functionality with incredible ease.I was playing legos with software development,without needing to worry about manufacturing the plastic anymore.
 
