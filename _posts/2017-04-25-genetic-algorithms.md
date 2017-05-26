@@ -8,7 +8,7 @@ title: "Playing God with Genetic Algorithms"
 <div class="divider"></div>
 During my voyage of exploring the neverending world of machine learning, I came across a peculiar concept, a concept that
 I carried with me in my very **DNA**,yet I was unaware of it's applications.While I was working on training data processing models to generalize datasets and give fairly correct outputs on new datasets,I came across a training method which was inspired by how we as organisms have evolved(trained) ourselves over all these generations to adapt and survive in our environments by simply optimizing our attributes throughout generations. A training algorithm inspired by the nature itself!
-Genetic Algorithms stand at the intersection of computing and the theory of evolution.Genetic Algorithms mainly comprise of three steps:
+Genetic Algorithms stand at the intersection of computing and the theory of evolution.They mainly comprise of three steps:
 
 # 1. Selection
 
