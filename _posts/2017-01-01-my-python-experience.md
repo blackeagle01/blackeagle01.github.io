@@ -16,4 +16,7 @@ of java or .NET etc.
 I had heard about the flexibility and scalabilty of **python** earlier but always hesitated to learn a new programming language
 because hey! every programming language has this new set of syntax definitions which takes a tiring amount of time to master.
 But one night I was scrolling through my learning resources and randomly opened my Python book,and came across the first program **helloworld.py**
-It was just one line `print('hello world')`.
+It was just one line 
+
+
+`print('hello world')`.
