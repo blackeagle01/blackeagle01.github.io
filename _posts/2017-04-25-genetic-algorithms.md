@@ -47,6 +47,5 @@ The `createnewgeneration()` function accepts a generation and returns a new gene
   
   
 Check out the entire code [here](#).
-To read more about genetic algoritms, click [here](#)
 
   
