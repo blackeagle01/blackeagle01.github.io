@@ -1,10 +1,30 @@
 ---
 layout: post
 title: "Playing God with Genetic Algorithms"
-comments: true
-description: "How to Download or Use This Theme"
-keywords: "dummy content"
 ---
 
 <i>“The fact that life evolved out of nearly nothing, some 10 billion years after the universe evolved out of literally nothing, is a fact so staggering that I would be mad to attempt words to do it justice.”</i>
 -Richard Dawkins
+<div class="divider"></div>
+During my voyage of exploring the neverending world of machine learning, I came across a peculiar concept, a concept that
+I carried with me in my very **DNA**,yet I was unaware of it's applications.While I was working on training data processing models to generalize datasets and give fairly correct outputs on new datasets,I came across a training method which was inspired by how we as organisms have evolved(trained) ourselves over all these generations to adapt and survive in our environments by simply optimizing our attributes throughout generations. A training algorithm inspired by the nature itself!
+Genetic Algorithms stand at the intersection of computing and the theory of evolution.Genetic Algorithms mainly comprise of three steps:
+
+# 1. Selection
+
+On a given generation, compute the values of a fitness function and select the parents from the generation probabilistically depending on the values of their fitness function,i.e. the member with higher fitness has higher probability of getting selected.
+
+# 2.Crossover/Reproduction
+
+Defining some merging procedure to produce a crossover from the selected parents to produce a child.Repeat the selection and crossover procedure until a new generation is generated.
+
+# 3. Mutation
+
+Mutation,although rare exists in the nature so our algorithm cannot evade it either.With minute probability,we mutate the children of the generation.
+
+
+<div class="divider"></div>
+Now when we compute the values of our fitness function on the new generation, we see better results.Our generation has evolved to suit our requirments.We again apply the same procedure on this generation,to find newer generations which  have evolved even furthur.
+<div class="divider"></div>
+
+
