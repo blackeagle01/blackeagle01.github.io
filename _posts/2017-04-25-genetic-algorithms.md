@@ -70,7 +70,7 @@ def reproduce(parents):
 	child=mutate(child)
 	return child
   ```
-  ### mutate 
+### mutate 
   ```python
   def mutate(child):
 	child=list(child)
@@ -82,5 +82,8 @@ def reproduce(parents):
 			child[i]=c
 	return ''.join(child)
   ```
-  The probability of mutation is 1%.If I don't seed the random number generator,everytime I run the code,most of the time cat is created within 3000 generations!Check out the entire code [here](#).
+  The probability of mutation is 1%.If I don't seed the random number generator,everytime I run the code,most of the time cat is created within 3000 generations!Although sometimes I got vague results like 'clq' which occur due to mutation.You might be thinking why do we incorporate mutation even when it is leading to vague results.It's because mutation can help to adjust datasets to optimum when the initial fitness values are low,i.e., cat can be created from [box,rat,dog].Genetic Algorithms can be used to train Neural Networks by itertating through a list of synapse values and performing selection,crossovers and mutation.
+  
+  
+Check out the entire code [here](#).
   
