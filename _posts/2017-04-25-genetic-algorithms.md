@@ -27,4 +27,9 @@ Mutation,although rare exists in the nature so our algorithm cannot evade it eit
 Now when we compute the values of our fitness function on the new generation, we see better results.Our generation has evolved to suit our requirments.We again apply the same procedure on this generation,to find newer generations which  have evolved even furthur.
 <div class="divider"></div>
 
+Although error correction based algorithms like gradient descent, which adjust the attributes(genomes) of our data items by 
+evaluating a degree of error between by the given output and the desired output give better results than genetic algorithms,genetic algorithms help us optimize a collection of data items altogether rather than working on a single data item.Also genetic algorithms,are useful to obtain a global minima when our back-propagating paradigm settles for a local minima.
 
+# Getting my hands dirty
+
+I coded up a simple implementation of a genetic algorithm in python which accepted a target string("cat" in this case) and a list of current generation eg.,['car','hut','box']
