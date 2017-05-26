@@ -25,11 +25,9 @@ Mutation,although rare exists in the nature so our algorithm cannot evade it eit
 
 <div class="divider"></div>
 Now when we compute the values of our fitness function on the new generation, we see better results.Our generation has evolved to suit our requirments.We again apply the same procedure on this generation,to find newer generations which  have evolved even furthur.
-<div class="divider"></div>
-
 Although error correction based algorithms like gradient descent, which adjust the attributes(genomes) of our data items by 
 evaluating a degree of error between by the given output and the desired output give better results than genetic algorithms,genetic algorithms help us optimize a collection of data items altogether rather than working on a single data item.Also genetic algorithms,are useful to obtain a global minima when our back-propagating paradigm settles for a local minima.
-
+<div class="divider"></div>
 # Getting my hands dirty
 
 I coded up a simple implementation of a genetic algorithm in python which accepted a target string("cat" in this case) and a list of string in the current generation eg.,['car','hut','box'].The fitness function will evaluate as percentage of no of characters in the string that are same as cat. ie; car will evaluate to 66.6% hut to 33.3% and box to zero. Then two parents will be chosen and crossed to generate an offspring.
@@ -49,4 +47,6 @@ The `createnewgeneration()` function accepts a generation and returns a new gene
   
   
 Check out the entire code [here](#).
+To read more about genetic algoritms, click [here](#)
+
   
