@@ -62,7 +62,7 @@ generate.story(z,/images/image.jpg)
 
 ```
 
-* Amazing!*
+**Amazing!**
 
 <div class="divider"></div>
 
