@@ -9,7 +9,7 @@ Deep Learning is the sublte extraction of machine learning into domains of featu
 <div class="divider"></div>
 
 Convolutional Neural Nets are the state-of-the-art techniques to learn from large feature space type datasets. They work extremely well with Images,and can be used for a variety of tasks such as Classification,Image localization and detection.They are primarily inspired by the mammalian Visual Cortex after the experiments performed by hubel and weasel!
-[here]https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwinue3B-azWAhWBO48KHULCB_4QtwIIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFTr3n7uBIuE&usg=AFQjCNGd5-mWM-mKXPQ_dRYnYPq5oqBTEA is a great resource to learn about ConvNets!
+[here](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwinue3B-azWAhWBO48KHULCB_4QtwIIKDAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFTr3n7uBIuE&usg=AFQjCNGd5-mWM-mKXPQ_dRYnYPq5oqBTEA) is a great resource to learn about ConvNets!
 
 <div class="divider"></div>
 
@@ -54,4 +54,4 @@ Loss function='categorical_crossentropy'
 
 The multi-layered perceptron after training for two hours on 2 hours on the datasets could only go upto 94%. Behold the power of deep learning!
 
-Check out the source code [here]!
+Check out the source code [here]()!
