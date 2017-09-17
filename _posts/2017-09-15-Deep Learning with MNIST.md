@@ -13,20 +13,20 @@ Convolutional Neural Nets are the state-of-the-art techniques to learn from larg
 
 <div class="divider"></div>
 
-I trained a Convolutional Neural Net using keras on my local machine to classify handwritten digits.Side by Side I trained a multi-layered perceptron on the image datasets! I had lesser patience in training my convnet so I restriced the training to 1000/60000 samples on 100 epochs.Surprisingly, the network gave an accuracy of 95% on the test datasets of 10000 samples and was trained in under five minutes! 
+I trained a Convolutional Neural Net using keras on my local machine to classify handwritten digits.Side by Side I trained a multi-layered perceptron on the image datasets! I had lesser patience in training my convnet so I restriced the training to 1000/60000 samples on 100 epochs to experiment with performance.
 
 
 Details of Multi-layered perceptron:
 
-*Hidden layers=2
-*Hidden layer size=900 units
-*Input size=784 units
-*Dropout rate=0.5
-*Optimizer='adam'
-*Loss function='categorical_crossentropy'
+* Hidden layers=2
+* Hidden layer size=900 units
+* Input size=784 units
+* Dropout rate=0.5
+* Optimizer='adam'
+* Loss function='categorical_crossentropy'
 
 
 
-The multi-layered perceptron after training for two hours on the datasets could only go upto 94%. The ConvNet trained for less than 5 minutes and went up to 95% accuracy! Behold the power of deep learning!
+This multi-layered perceptron after training for two hours on the datasets could only go upto 94%. The ConvNet trained for less than 5 minutes and went up to 95% accuracy! Behold the power of deep learning!
 
 Check out the source code [here](https://github.com/blackeagle01/MNISTDeepLearn)!
