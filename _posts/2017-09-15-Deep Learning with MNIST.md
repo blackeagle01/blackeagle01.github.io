@@ -27,6 +27,6 @@ Details of Multi-layered perceptron:
 
 
 
-This multi-layered perceptron after training for two hours on the datasets could only go upto 94%. The ConvNet trained for less than 5 minutes and went up to 95% accuracy! Behold the power of deep learning!
+This multi-layered perceptron after training for two hours on the datasets could only go upto 94% accuracy. The ConvNet trained for less than 5 minutes and went up to 95% accuracy! Behold the power of deep learning!
 
 Check out the source code [here](https://github.com/blackeagle01/MNISTDeepLearn)!
