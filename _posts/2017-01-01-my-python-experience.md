@@ -8,7 +8,7 @@ school,even though I knew I could pull off some pretty cool stuff with it.During
 which i tried to master thoroughly.I implemented my data structures with complete sincerity and would be pretty happy to build
 algorithms and see them compute solutions over my pretty datasets.Even though when I looked around I saw people creating stuff,with
 implementation details beyond the scope of my vision or knowledge,with databases,front-ends and back-ends,User-Interfaces and I just stood like thinking
-Emmm! Bro I'm intimidated! I also wanted to create all the cool stuff but did'nt know where to start learning, learn the web or the user-interface libraries
+Emmm! I'm intimidated! I also wanted to create all the cool stuff but did'nt know where to start learning, learn the web or the user-interface libraries
 of java or .NET etc.
 
 <div class="divider"></div>
